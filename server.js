@@ -3,6 +3,7 @@ var express = require('express');
 var app = express();
 var path = require('path');
 var cors = require('cors');
+var PORT = 8888;
 
 function normalizeString(str){
   if(!str){
@@ -47,8 +48,8 @@ app.get('/api/games',function(req,res){
   });
 })
 
-app.listen(8888,function(){
-  console.log("Connection established on port 5000");
+app.listen(PORT,function(){
+  console.log("Connection established on port " + PORT);
 });
 
 
