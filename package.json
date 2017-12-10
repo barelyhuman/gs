@@ -1,0 +1,13 @@
+{
+  "name": "game-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
